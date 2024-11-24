@@ -14,7 +14,7 @@
         phone="+1 (239) 789-0196"
         github="https://github.com/MooseCoding"
         youtube="https://youtube.com/@moosecoding1221?si=iQxVmvwuftlgzGUO"
-        website="{$page.url}"
+        website={$page.url}
         cardClass="bg-pink-600 bg-opacity-80 hover:bg-opacity-100 hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out text-white rounded-lg p-8 shadow-md max-w-md"
     />
 </div>

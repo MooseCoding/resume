@@ -13,6 +13,13 @@
             url="https://youtu.be/ZIquQqs5_bw?si=-Q-deeWhU0SU_hMk"
         />
 
+        <ProjectCard
+            title="Website designer"
+            description="Designing websites for family and friend owned busness. 
+            Mostly focusing on the frontend for these applications. They are written in Svelte or React."
+            cardClass="bg-purple-500 hover:bg-purple-600 hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out text-white rounded-lg p-6 shadow-md max-w-md"
+        />
+
         <ProjectCard 
             title="jEdison Knights Robot Captain"
             description="I was the robot captain for my FIRST Tech Challenge team. I was mostly involved with the programming side and was our coding expert for most of my first 2 years. I also did CAD and assembly, and contributed to the notebook and portfolio that showcase our team and our community involvement. Click to access our LinkTree!"

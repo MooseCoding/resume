@@ -15,6 +15,7 @@ let mC = monthsSince('2022-08-01');
 let mCpp = monthsSince('2023-09-01');
 let mJ = monthsSince('2023-08-16'); 
 let mP = monthsSince('2021-02-11'); 
+let mS = monthsSince('2024-9-30');
 
 </script>
 
@@ -29,6 +30,7 @@ let mP = monthsSince('2021-02-11');
             <li>C++: {mCpp} months</li>
             <li>Java: {mJ} months</li>
             <li>Python: {mP} months</li>
+            <li>Svelte: {mS} months</li>
         </ul>
     </div>
 </div>

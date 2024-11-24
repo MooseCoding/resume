@@ -1,14 +1,29 @@
-<script>
-    import Name from '$lib/main/Name.svelte'; 
-    
+<script lang="ts">
+	import TypewriterEffectSmooth from '$lib/ui/TypewriterEffect/TypewriterEffectSmooth.svelte';
+	
+	const words = [
+		{
+			text: 'Make'
+		},
+		{
+			text: 'the'
+		},
+		{
+			text: 'best'
+		},
+		{
+			text: 'web-apps'
+		},
+		{
+			text: 'with.'
+		},
+		{
+			text: '@MooseCoding',
+			className: 'text-purple-500 dark:text-blue-500'
+		}
+	];
 </script>
 
-<h1 class="text-6xl text-purple-600 text-center py-4">
-    Welcome
-</h1>
-
-<h2 class="text-blue-600 text-center py-10">
-    Select any of the categories on the navigation bar to learn more about me!
-</h2>
-
-
+<div class="flex h-[40rem] flex-col items-center justify-center">
+	<TypewriterEffectSmooth {words} />
+</div>

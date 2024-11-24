@@ -16,7 +16,7 @@
   <nav class="bg-black shadow-md px-4 py-4">
     <div class="container mx-auto flex items-center justify-between">
       <!-- Logo -->
-       <div class="text-xl font-semibold gradient-text">
+       <div class="font-semibold gradient-text">
           <a href="/">MooseCoding</a>
        </div>
   
